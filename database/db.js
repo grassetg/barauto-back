@@ -3,13 +3,7 @@ const {Sequelize} = require('sequelize');
 
 module.exports = db = {};
 
-let databaseConfig = {
-    host: 'localhost',
-    port: 3306,
-    user: 'root',
-    password: 'Gu1ll9ume',
-    database: 'barauto'
-}
+let databaseConfig = require('./config/dbConfig')
 
 initialize()
 
@@ -40,11 +34,10 @@ async function initialize() {
     // Sync all models with database.
     await sequelize.sync();
 
-    setUpDummyData();
+    await setUpDummyData();
 }
 
 async function setUpDummyData() {
-
     const account0 = db.Account.build({firstName: 'Johnny', lastName: 'Cash', type: 'Client', birthdate: new Date()});
     await account0.save();
 }

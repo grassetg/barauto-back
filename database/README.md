@@ -6,7 +6,7 @@
 
 First make sure you have installed mysql and that your local mysql server is running.
 
-Then go to /database/db.js and set your password.
+Then go to /database/config/dbConfig.json and set your password.
 
 ## Using the database
 
