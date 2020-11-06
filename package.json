@@ -12,8 +12,12 @@
     "url": "git+https://github.com/grassetg/barauto-back.git"
   },
   "dependencies": {
+    "express": "^4.17.1",
     "mysql2": "^2.2.5",
-    "sequelize": "^6.3.5",
-    "express": "^4.17.1"
+    "sequelize": "^6.3.5"
+  },
+  "devDependencies": {
+    "dateformat": "^3.0.3",
+    "winston": "^3.3.3"
   }
 }

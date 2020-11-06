@@ -1,7 +1,7 @@
 const mysql = require('mysql2/promise');
 const {Sequelize} = require('sequelize');
 
-let  db = {}
+let db = {}
 module.exports = db;
 
 let databaseConfig = require('./config/dbConfig')
@@ -41,17 +41,16 @@ async function initialize() {
 async function setUpTestData() {
 
     let nbAccounts = await db.Account.findAll();
-    nbAccounts =  nbAccounts.length;
+    nbAccounts = nbAccounts.length;
     let nbDrinks = await db.Drink.findAll();
-    nbDrinks =  nbDrinks.length;
+    nbDrinks = nbDrinks.length;
     let nbCocktails = await db.Cocktail.findAll();
-    nbCocktails =  nbCocktails.length;
+    nbCocktails = nbCocktails.length;
     let nbAddresses = await db.Address.findAll();
-    nbAddresses =  nbAddresses.length;
+    nbAddresses = nbAddresses.length;
 
-    let allBars = await  db.Bar.findAll()
+    let allBars = await db.Bar.findAll()
     let nbBars = allBars.length
-
 
     if (nbAccounts === 0) {
         await setUpAccounts();
@@ -99,16 +98,42 @@ async function setUpDrinks() {
 }
 
 async function setUpCocktails() {
-    const account0 = db.Account.build({firstName: 'Johnny', lastName: 'Cash', type: 'Client', birthdate: new Date()});
-    await account0.save();
+    let cocktail = db.Cocktail.build({
+        name: "Menthe à l'eau",
+        volume: 0.1, // Litres
+        price: 3.00
+    });
+    await cocktail.save()
+
+    let eauId = (await db.Drink.findOne({where: {name : 'Eau'}})).id
+    let siropId = (await db.Drink.findOne({where: {name : 'Sirop'}})).id
+
+    await db.CocktailHasDrink.create({CocktailId: cocktail.id, DrinkId: eauId})
+    await db.CocktailHasDrink.create({CocktailId: cocktail.id, DrinkId: siropId})
 }
 
 async function setUpAddresses() {
-    const account0 = db.Account.build({firstName: 'Johnny', lastName: 'Cash', type: 'Client', birthdate: new Date()});
-    await account0.save();
+    await db.Address.create({
+        country: "France",
+        city: "Kremlin-Bicêtre",
+        street: "14-16 Rue Voltaire",
+        addressName: "Epita Kremlin Bicêtre",
+        postalCode: 94270
+    });
 }
 
 async function setUpBars() {
-    const account0 = db.Account.build({firstName: 'Johnny', lastName: 'Cash', type: 'Client', birthdate: new Date()});
-    await account0.save();
+    let bar = db.Bar.build({
+        name: "L'étalon noir"
+    });
+    await bar.save()
+
+    await db.Address.create({
+        country: "France",
+        city: "Kremlin-Bicêtre",
+        street: "15 avenue Fontainebleau",
+        addressName: "L'étalon noir",
+        postalCode: 94270,
+        barId: bar.id
+    })
 }
