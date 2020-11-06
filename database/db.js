@@ -1,7 +1,8 @@
 const mysql = require('mysql2/promise');
 const {Sequelize} = require('sequelize');
 
-module.exports = db = {};
+let  db = {}
+module.exports = db;
 
 let databaseConfig = require('./config/dbConfig')
 
@@ -34,10 +35,80 @@ async function initialize() {
     // Sync all models with database.
     await sequelize.sync();
 
-    await setUpDummyData();
+    await setUpTestData();
 }
 
-async function setUpDummyData() {
+async function setUpTestData() {
+
+    let nbAccounts = await db.Account.findAll();
+    nbAccounts =  nbAccounts.length;
+    let nbDrinks = await db.Drink.findAll();
+    nbDrinks =  nbDrinks.length;
+    let nbCocktails = await db.Cocktail.findAll();
+    nbCocktails =  nbCocktails.length;
+    let nbAddresses = await db.Address.findAll();
+    nbAddresses =  nbAddresses.length;
+
+    let allBars = await  db.Bar.findAll()
+    let nbBars = allBars.length
+
+
+    if (nbAccounts === 0) {
+        await setUpAccounts();
+    }
+
+    if (nbDrinks === 0) {
+        await setUpDrinks();
+    }
+
+    if (nbCocktails === 0) {
+        await setUpCocktails();
+    }
+
+    if (nbAddresses === 0) {
+        await setUpAddresses();
+    }
+
+    if (nbBars === 0) {
+        await setUpBars();
+    }
+}
+
+async function setUpAccounts() {
+
+    await db.Account.create({firstName: 'Matthieu', lastName: 'Aubry', type: 'Barman', birthdate: new Date()});
+    await db.Account.create({firstName: 'Cédric', lastName: 'Baudoin', type: 'Barman', birthdate: new Date()});
+    await db.Account.create({firstName: 'Guillaume', lastName: 'Grasset', type: 'Barman', birthdate: new Date()});
+    await db.Account.create({firstName: 'Edouard', lastName: 'Mahe', type: 'Barman', birthdate: new Date()});
+    await db.Account.create({firstName: 'Sara', lastName: 'Mellouk', type: 'Barman', birthdate: new Date()});
+    await db.Account.create({firstName: 'Johnny', lastName: 'Cash', type: 'Client', birthdate: new Date()});
+    await db.Account.create({firstName: 'John', lastName: 'Snow', type: 'Client', birthdate: new Date()});
+    await db.Account.create({firstName: 'Yan', lastName: 'Solo', type: 'Client', birthdate: new Date()});
+    await db.Account.create({firstName: 'Chew', lastName: 'Baka', type: 'Client', birthdate: new Date()});
+    await db.Account.create({firstName: 'Harry', lastName: 'Podfleur', type: 'Client', birthdate: new Date()});
+    await db.Account.create({firstName: 'Jay', lastName: 'Pludidee', type: 'Client', birthdate: new Date()});
+}
+
+async function setUpDrinks() {
+
+    await db.Drink.create({name: 'Vodka', alcoholDegree: 37.5});
+    await db.Drink.create({name: 'Gin', alcoholDegree: 43.1});
+    await db.Drink.create({name: 'Sirop', alcoholDegree: 0});
+    await db.Drink.create({name: 'Eau', alcoholDegree: 0});
+    await db.Drink.create({name: 'Rhum', alcoholDegree: 37.5});
+}
+
+async function setUpCocktails() {
+    const account0 = db.Account.build({firstName: 'Johnny', lastName: 'Cash', type: 'Client', birthdate: new Date()});
+    await account0.save();
+}
+
+async function setUpAddresses() {
+    const account0 = db.Account.build({firstName: 'Johnny', lastName: 'Cash', type: 'Client', birthdate: new Date()});
+    await account0.save();
+}
+
+async function setUpBars() {
     const account0 = db.Account.build({firstName: 'Johnny', lastName: 'Cash', type: 'Client', birthdate: new Date()});
     await account0.save();
 }
