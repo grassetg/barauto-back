@@ -5,12 +5,12 @@ let controller = {}
 module.exports = controller
 
 controller.getAll = async function (req, res) {
-    const bars = await db.Bar.findAll()
+    const bars = await db.Bar.findAll({include : "Address"})
     res.json(bars)
 }
 
 controller.getOne = async function (req, res) {
-    const bar = await db.Bar.findOne({id: req.params.id})
+    const bar = await db.Bar.findOne({id: req.params.id, include: "Address"})
     res.json(bar)
 }
 
