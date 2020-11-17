@@ -27,9 +27,10 @@ controller.update = async function(req, res) {
     }
 }
 
+// TODO fix : should not create drink or cocktail if they already exist.
 controller.createOne = async function (req, res) {
-    if (req.body.cocktail === undefined || req.body.drinks === undefined) {
-        res.status(400).send("Incomplete request, make sure both 'cocktail' and 'drinks' fields exists.")
+    if (req.body.Drinks === undefined) {
+        res.status(400).send("Cannot create a cocktail without Drinks.")
         return
     }
 
@@ -43,12 +44,13 @@ controller.createOne = async function (req, res) {
         })
 
         for (let i = 0; i < givenDrinks.length; i++) {
-            let drink = db.Drink.build({
-                name: givenDrinks[i].name,
-                alcoholDegree: givenDrinks[i].alcoholDegree,
-                volume: givenDrinks[i].volume
+            let drink = await db.Drink.findOrBuild({ where: {
+                    name: givenDrinks[i].name,
+                    alcoholDegree: givenDrinks[i].alcoholDegree,
+                    volume: givenDrinks[i].volume
+                }
             })
-            drinks.push(drink)
+            drinks.push(drink[0])
         }
 
         if (await checkIfCocktailExist(cocktail, drinks)) {
