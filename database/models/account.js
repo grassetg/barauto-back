@@ -6,7 +6,14 @@ function model(sequelize) {
     const attributes = {
         type: {
             type: DataTypes.STRING,
-            allowNull: false
+            allowNull: false,
+            validate: {
+                isAcccountType(type) {
+                    if (type !== "Client" && type !== "Barman") {
+                        throw new Error('An account type must be either "Client" or "Barman".');
+                    }
+                }
+            }
         },
         firstName: {
             type: DataTypes.STRING,

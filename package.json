@@ -4,20 +4,20 @@
   "description": "The backend of the barauto IOT project",
   "main": "index.js",
   "scripts": {
-    "start": "node database/db.js",
+    "start": "node entrypoint.js",
     "test": "test"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/grassetg/barauto-back.git"
   },
-  "author": "",
-  "bugs": {
-    "url": "https://github.com/grassetg/barauto-back/issues"
-  },
-  "homepage": "https://github.com/grassetg/barauto-back#readme",
   "dependencies": {
+    "express": "^4.17.1",
     "mysql2": "^2.2.5",
     "sequelize": "^6.3.5"
+  },
+  "devDependencies": {
+    "dateformat": "^3.0.3",
+    "winston": "^3.3.3"
   }
 }
