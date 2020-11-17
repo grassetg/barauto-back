@@ -27,13 +27,13 @@ async function initialize() {
     db.Address = require('./models/address')(sequelize);
 
     // Define associations.
-    db.Cocktail.hasMany(db.Drink);
+    db.Cocktail.belongsToMany(db.Drink, {through: 'CocktailHasDrink'});
     db.Drink.belongsToMany(db.Cocktail, {through: 'CocktailHasDrink'});
     db.Bar.hasOne(db.Address);
     db.Address.belongsTo(db.Bar);
 
     // Sync all models with database.
-    await sequelize.sync();
+    await sequelize.sync({alter: true})
 
     await setUpTestData();
 }
@@ -90,11 +90,11 @@ async function setUpAccounts() {
 
 async function setUpDrinks() {
 
-    await db.Drink.create({name: 'Vodka', alcoholDegree: 37.5});
-    await db.Drink.create({name: 'Gin', alcoholDegree: 43.1});
-    await db.Drink.create({name: 'Sirop', alcoholDegree: 0});
-    await db.Drink.create({name: 'Eau', alcoholDegree: 0});
-    await db.Drink.create({name: 'Rhum', alcoholDegree: 37.5});
+    await db.Drink.create({name: 'Vodka', alcoholDegree: 37.5, volume: 20.0});
+    await db.Drink.create({name: 'Gin', alcoholDegree: 43.1, volume: 10.0});
+    await db.Drink.create({name: 'Sirop', alcoholDegree: 0, volume: 15.0});
+    await db.Drink.create({name: 'Eau', alcoholDegree: 0, volume: 45.0});
+    await db.Drink.create({name: 'Rhum', alcoholDegree: 37.5, volume: 30.0});
 }
 
 async function setUpCocktails() {
@@ -105,8 +105,8 @@ async function setUpCocktails() {
     });
     await cocktail.save()
 
-    let eauId = (await db.Drink.findOne({where: {name : 'Eau'}})).id
-    let siropId = (await db.Drink.findOne({where: {name : 'Sirop'}})).id
+    let eauId = (await db.Drink.findOne({where: {name: 'Eau'}})).id
+    let siropId = (await db.Drink.findOne({where: {name: 'Sirop'}})).id
 
     await db.CocktailHasDrink.create({CocktailId: cocktail.id, DrinkId: eauId})
     await db.CocktailHasDrink.create({CocktailId: cocktail.id, DrinkId: siropId})
@@ -134,6 +134,6 @@ async function setUpBars() {
         street: "15 avenue Fontainebleau",
         addressName: "L'étalon noir",
         postalCode: 94270,
-        barId: bar.id
+        BarId: bar.id
     })
 }

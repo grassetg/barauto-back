@@ -13,11 +13,14 @@ function model(sequelize) {
             type: DataTypes.FLOAT,
             allowNull: true,
             validate: {
-                isPositive(value) {
-                    if (value < 0) {
-                        throw new Error('A drink price must be positive.')
-                    }
-                }
+                isPositive
+            }
+        },
+        volume: {
+            type: DataTypes.FLOAT,
+            allowNull: false,
+            validate: {
+                isPositive
             }
         }
     };
@@ -27,4 +30,10 @@ function model(sequelize) {
     };
 
     return sequelize.define('Drink', attributes, options);
+}
+
+function isPositive(value) {
+    if (value < 0) {
+        throw new Error('A drink price must be positive.')
+    }
 }

@@ -1,7 +1,7 @@
 {
   "host": "localhost",
   "port": 3306,
-  "user": "root",
-  "password": "Gu1ll9ume",
+  "user": "magyar",
+  "password": "dragonnet10",
   "database": "barauto"
 }
