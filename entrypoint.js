@@ -3,7 +3,7 @@ let http = require("http");
 require('./database/db') // Connect to database.
 
 // Define a port for the server to listen on
-let port = process.env.PORT || 3000;
+let port = process.env.PORT || 8002;
 app.set("port", port);
 
 // Create a server instance
