@@ -1,0 +1,79 @@
+{"message":"Error trying to save new bar via POST : TypeError: Cannot read property 'name' of undefined","level":"\u001b[31merror\u001b[39m","timestamp":"2020-11-06T15:23:59.497Z"}
+{"message":"Error trying to save new bar via POST : TypeError: Cannot read property 'country' of undefined","level":"\u001b[31merror\u001b[39m","timestamp":"2020-11-06T15:24:04.161Z"}
+{"message":"Successfully created a new bar via POST.","level":"\u001b[32minfo\u001b[39m","timestamp":"2020-11-06T15:24:23.102Z"}
+{"message":"Successfully created a new bar via POST.","level":"\u001b[32minfo\u001b[39m","timestamp":"2020-11-06T15:24:40.899Z"}
+{"message":"Successfully created a new bar via POST.","level":"\u001b[32minfo\u001b[39m","timestamp":"2020-11-06T15:25:11.013Z"}
+{"message":"Cancelled bar creation : bar already exists.","level":"\u001b[34mdebug\u001b[39m","timestamp":"2020-11-06T15:29:21.948Z"}
+{"message":"Error trying to save new bar via POST : TypeError: res.statusCode is not a function","level":"\u001b[31merror\u001b[39m","timestamp":"2020-11-06T15:29:21.952Z"}
+{"message":"Cancelled bar creation : bar already exists.","level":"\u001b[34mdebug\u001b[39m","timestamp":"2020-11-06T15:30:27.645Z"}
+{"message":"Successfully created a new bar via POST.","level":"\u001b[32minfo\u001b[39m","timestamp":"2020-11-06T15:30:27.680Z"}
+{"message":"Error trying to save new bar via POST : Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client","level":"\u001b[31merror\u001b[39m","timestamp":"2020-11-06T15:30:27.681Z"}
+{"message":"Cancelled bar creation : bar already exists.","level":"\u001b[34mdebug\u001b[39m","timestamp":"2020-11-06T15:42:54.135Z"}
+{"message":"Cancelled bar creation : bar already exists.","level":"\u001b[34mdebug\u001b[39m","timestamp":"2020-11-06T15:47:18.081Z"}
+{"message":"Cancelled bar creation : bar already exists.","level":"\u001b[34mdebug\u001b[39m","timestamp":"2020-11-06T15:48:11.675Z"}
+{"message":"Cancelled bar creation : bar already exists.","level":"\u001b[34mdebug\u001b[39m","timestamp":"2020-11-06T15:48:26.431Z"}
+{"message":"Cancelled bar creation : bar already exists.","level":"\u001b[34mdebug\u001b[39m","timestamp":"2020-11-06T15:48:42.164Z"}
+{"message":"Cancelled bar creation : bar already exists.","level":"\u001b[34mdebug\u001b[39m","timestamp":"2020-11-06T15:49:09.529Z"}
+{"message":"Successfully created a new bar via POST.","level":"\u001b[32minfo\u001b[39m","timestamp":"2020-11-06T15:49:39.894Z"}
+{"message":"Cancelled bar creation : bar already exists.","level":"\u001b[34mdebug\u001b[39m","timestamp":"2020-11-06T15:50:03.209Z"}
+{"message":"Cancelled bar creation : bar already exists.","level":"\u001b[34mdebug\u001b[39m","timestamp":"2020-11-06T15:52:44.945Z"}
+{"message":"Successfully created a new bar via POST.","level":"\u001b[32minfo\u001b[39m","timestamp":"2020-11-06T15:56:23.319Z"}
+{"message":"Cancelled bar creation : bar already exists.","level":"\u001b[34mdebug\u001b[39m","timestamp":"2020-11-06T15:57:01.327Z"}
+{"message":"Successfully created a new bar via POST.","level":"\u001b[32minfo\u001b[39m","timestamp":"2020-11-06T15:59:06.926Z"}
+{"message":"Successfully created a new bar via POST.","level":"\u001b[32minfo\u001b[39m","timestamp":"2020-11-06T15:59:15.658Z"}
+{"message":"Error trying to save new bar via POST : TypeError: Cannot read property 'country' of undefined","level":"\u001b[31merror\u001b[39m","timestamp":"2020-11-06T15:59:59.479Z"}
+{"message":"Error trying to save new bar via POST : Error: Include unexpected. Element has to be either a Model, an Association or an object.","level":"\u001b[31merror\u001b[39m","timestamp":"2020-11-06T16:00:38.453Z"}
+{"message":"Successfully created a new bar via POST.","level":"\u001b[32minfo\u001b[39m","timestamp":"2020-11-06T16:00:50.555Z"}
+{"message":"Successfully created a new bar via POST.","level":"\u001b[32minfo\u001b[39m","timestamp":"2020-11-06T16:01:18.578Z"}
+{"message":"Successfully created a new bar via POST.","level":"\u001b[32minfo\u001b[39m","timestamp":"2020-11-06T16:01:19.188Z"}
+{"message":"Successfully created a new bar via POST.","level":"\u001b[32minfo\u001b[39m","timestamp":"2020-11-06T16:02:09.207Z"}
+{"message":"Successfully created a new bar via POST.","level":"\u001b[32minfo\u001b[39m","timestamp":"2020-11-06T16:03:11.557Z"}
+{"message":"Successfully created a new bar via POST.","level":"\u001b[32minfo\u001b[39m","timestamp":"2020-11-06T16:05:59.820Z"}
+{"message":"Successfully created a new bar via POST.","level":"\u001b[32minfo\u001b[39m","timestamp":"2020-11-06T16:06:00.505Z"}
+{"message":"Successfully created a new bar via POST.","level":"\u001b[32minfo\u001b[39m","timestamp":"2020-11-06T16:22:37.727Z"}
+{"message":"Error trying to save new bar via POST : ReferenceError: Address is not defined","level":"\u001b[31merror\u001b[39m","timestamp":"2020-11-06T16:22:59.788Z"}
+{"message":"Error trying to save new bar via POST : Error: Association with alias \"address\" does not exist on Bar","level":"\u001b[31merror\u001b[39m","timestamp":"2020-11-06T16:23:17.885Z"}
+{"message":"Successfully created a new bar via POST.","level":"\u001b[32minfo\u001b[39m","timestamp":"2020-11-06T16:23:28.960Z"}
+{"message":"Successfully created a new bar via POST.","level":"\u001b[32minfo\u001b[39m","timestamp":"2020-11-06T16:33:51.196Z"}
+{"message":"Successfully created a new bar via POST.","level":"\u001b[32minfo\u001b[39m","timestamp":"2020-11-06T16:33:54.503Z"}
+{"message":"Successfully created a new bar via POST.","level":"\u001b[32minfo\u001b[39m","timestamp":"2020-11-06T16:35:55.763Z"}
+{"message":"Successfully created a new bar via POST.","level":"\u001b[32minfo\u001b[39m","timestamp":"2020-11-06T16:36:23.337Z"}
+{"message":"Cancelled bar creation : bar already exists.","level":"\u001b[34mdebug\u001b[39m","timestamp":"2020-11-06T16:36:23.940Z"}
+{"message":"Successfully created a new bar via POST.","level":"\u001b[32minfo\u001b[39m","timestamp":"2020-11-06T16:37:08.089Z"}
+{"message":"Cancelled bar creation : bar already exists.","level":"\u001b[34mdebug\u001b[39m","timestamp":"2020-11-06T16:37:09.325Z"}
+{"message":"Cancelled bar creation : bar already exists.","level":"\u001b[34mdebug\u001b[39m","timestamp":"2020-11-06T16:42:19.685Z"}
+{"message":"Successfully created a new bar via POST.","level":"\u001b[32minfo\u001b[39m","timestamp":"2020-11-06T16:43:18.745Z"}
+{"message":"Cancelled bar creation : bar already exists.","level":"\u001b[34mdebug\u001b[39m","timestamp":"2020-11-06T16:43:19.620Z"}
+{"message":"Error trying to save new cocktail via POST : ReferenceError: Cannot access 'cocktail' before initialization","level":"\u001b[31merror\u001b[39m","timestamp":"2020-11-17T10:03:08.917Z"}
+{"message":"Error trying to save new cocktail via POST : ReferenceError: Cannot access 'cocktail' before initialization","level":"\u001b[31merror\u001b[39m","timestamp":"2020-11-17T10:03:25.063Z"}
+{"message":"Error trying to save new cocktail via POST : Error: Association with alias \"Drinks\" does not exist on Bar","level":"\u001b[31merror\u001b[39m","timestamp":"2020-11-17T10:18:35.498Z"}
+{"message":"Successfully created a new cocktail via POST.","level":"\u001b[32minfo\u001b[39m","timestamp":"2020-11-17T10:19:03.696Z"}
+{"message":"Successfully created a new cocktail via POST.","level":"\u001b[32minfo\u001b[39m","timestamp":"2020-11-17T14:09:45.417Z"}
+{"message":"Successfully created a new cocktail via POST.","level":"\u001b[32minfo\u001b[39m","timestamp":"2020-11-17T14:11:32.519Z"}
+{"message":"Successfully created a new cocktail via POST.","level":"\u001b[32minfo\u001b[39m","timestamp":"2020-11-17T14:11:42.705Z"}
+{"message":"Successfully created a new cocktail via POST.","level":"\u001b[32minfo\u001b[39m","timestamp":"2020-11-17T14:11:45.586Z"}
+{"message":"Successfully created a new cocktail via POST.","level":"\u001b[32minfo\u001b[39m","timestamp":"2020-11-17T14:11:47.286Z"}
+{"message":"Successfully created a new cocktail via POST.","level":"\u001b[32minfo\u001b[39m","timestamp":"2020-11-17T14:12:52.932Z"}
+{"message":"Error trying to save new cocktail via POST : Error: Invalid value Drink {\n  dataValues: { id: null, name: 'Eau', alcoholDegree: 0, volume: 24 },\n  _previousDataValues: { name: undefined, alcoholDegree: undefined, volume: undefined },\n  _changed: Set { 'name', 'alcoholDegree', 'volume' },\n  _options: { isNewRecord: true, _schema: null, _schemaDelimiter: '' },\n  isNewRecord: true\n}","level":"\u001b[31merror\u001b[39m","timestamp":"2020-11-17T14:16:08.566Z"}
+{"message":"Error trying to save new cocktail via POST : Error: Invalid value Promise {\n  <rejected> Error: Missing where attribute in the options parameter passed to findOrCreate. Please note that the API has changed, and is now options only (an object with where, defaults keys, transaction etc.)\n      at Function.findOrCreate (D:\\Dev\\WebstormProjects\\barauto-back\\node_modules\\sequelize\\lib\\model.js:2272:13)\n      at controller.createOne (D:\\Dev\\WebstormProjects\\barauto-back\\controllers\\cocktailController.js:34:34)\n      at Layer.handle [as handle_request] (D:\\Dev\\WebstormProjects\\barauto-back\\node_modules\\express\\lib\\router\\layer.js:95:5)\n      at next (D:\\Dev\\WebstormProjects\\barauto-back\\node_modules\\express\\lib\\router\\route.js:137:13)\n      at Route.dispatch (D:\\Dev\\WebstormProjects\\barauto-back\\node_modules\\express\\lib\\router\\route.js:112:3)\n      at Layer.handle [as handle_request] (D:\\Dev\\WebstormProjects\\barauto-back\\node_modules\\express\\lib\\router\\layer.js:95:5)\n      at D:\\Dev\\WebstormProjects\\barauto-back\\node_modules\\express\\lib\\router\\index.js:281:22\n      at Function.process_params (D:\\Dev\\WebstormProjects\\barauto-back\\node_modules\\express\\lib\\router\\index.js:335:12)\n      at next (D:\\Dev\\WebstormProjects\\barauto-back\\node_modules\\express\\lib\\router\\index.js:275:10)\n      at Function.handle (D:\\Dev\\WebstormProjects\\barauto-back\\node_modules\\express\\lib\\router\\index.js:174:3)\n}","level":"\u001b[31merror\u001b[39m","timestamp":"2020-11-17T14:16:50.016Z"}
+{"message":"Error trying to save new cocktail via POST : Error: Invalid value Promise {\n  [\n    Drink {\n      dataValues: {\n        id: 6,\n        name: 'Eau',\n        alcoholDegree: 0,\n        volume: 24,\n        createdAt: 2020-11-17T14:11:32.000Z,\n        updatedAt: 2020-11-17T14:11:32.000Z\n      },\n      _previousDataValues: {\n        id: 6,\n        name: 'Eau',\n        alcoholDegree: 0,\n        volume: 24,\n        createdAt: 2020-11-17T14:11:32.000Z,\n        updatedAt: 2020-11-17T14:11:32.000Z\n      },\n      _changed: Set {},\n      _options: {\n        isNewRecord: false,\n        _schema: null,\n        _schemaDelimiter: '',\n        raw: true,\n        attributes: [Array]\n      },\n      isNewRecord: false\n    },\n    false\n  ]\n}","level":"\u001b[31merror\u001b[39m","timestamp":"2020-11-17T14:17:08.337Z"}
+{"message":"Error trying to save new cocktail via POST : Error: Invalid value Drink {\n  dataValues: {\n    id: 6,\n    name: 'Eau',\n    alcoholDegree: 0,\n    volume: 24,\n    createdAt: 2020-11-17T14:11:32.000Z,\n    updatedAt: 2020-11-17T14:11:32.000Z\n  },\n  _previousDataValues: {\n    id: 6,\n    name: 'Eau',\n    alcoholDegree: 0,\n    volume: 24,\n    createdAt: 2020-11-17T14:11:32.000Z,\n    updatedAt: 2020-11-17T14:11:32.000Z\n  },\n  _changed: Set {},\n  _options: {\n    isNewRecord: false,\n    _schema: null,\n    _schemaDelimiter: '',\n    raw: true,\n    attributes: [\n      'id',\n      'name',\n      'alcoholDegree',\n      'volume',\n      'createdAt',\n      'updatedAt'\n    ]\n  },\n  isNewRecord: false\n}","level":"\u001b[31merror\u001b[39m","timestamp":"2020-11-17T14:17:25.957Z"}
+{"message":"Successfully created a new cocktail via POST.","level":"\u001b[32minfo\u001b[39m","timestamp":"2020-11-17T14:19:02.368Z"}
+{"message":"Successfully created a new cocktail via POST.","level":"\u001b[32minfo\u001b[39m","timestamp":"2020-11-17T14:19:03.309Z"}
+{"message":"Successfully created a new cocktail via POST.","level":"\u001b[32minfo\u001b[39m","timestamp":"2020-11-17T21:57:38.447Z"}
+{"message":"Error trying to update cocktail via PUT : Error: WHERE parameter \"id\" has invalid \"undefined\" value","level":"\u001b[31merror\u001b[39m","timestamp":"2020-11-17T21:59:06.273Z"}
+{"message":"Error trying to update cocktail via PUT : Error: WHERE parameter \"id\" has invalid \"undefined\" value","level":"\u001b[31merror\u001b[39m","timestamp":"2020-11-17T21:59:49.913Z"}
+{"message":"Successfully created a new cocktail via POST.","level":"\u001b[32minfo\u001b[39m","timestamp":"2020-11-17T22:02:32.736Z"}
+{"message":"Error trying to save new cocktail via POST : TypeError: drinks[index].save is not a function","level":"\u001b[31merror\u001b[39m","timestamp":"2020-11-17T22:11:14.674Z"}
+{"message":"Error trying to save new cocktail via POST : TypeError: drinks[index].save is not a function","level":"\u001b[31merror\u001b[39m","timestamp":"2020-11-17T22:11:16.916Z"}
+{"message":"Error trying to save new cocktail via POST : TypeError: drinks[index].save is not a function","level":"\u001b[31merror\u001b[39m","timestamp":"2020-11-17T22:12:00.616Z"}
+{"message":"Error trying to save new cocktail via POST : TypeError: drinks[index].save is not a function","level":"\u001b[31merror\u001b[39m","timestamp":"2020-11-17T22:12:38.656Z"}
+{"message":"Error trying to save new cocktail via POST : TypeError: drinks[index].save is not a function","level":"\u001b[31merror\u001b[39m","timestamp":"2020-11-17T22:13:33.926Z"}
+{"message":"Error trying to save new cocktail via POST : TypeError: drinks[index].save is not a function","level":"\u001b[31merror\u001b[39m","timestamp":"2020-11-17T22:13:50.880Z"}
+{"message":"Error trying to save new cocktail via POST : TypeError: drinks[index].save is not a function","level":"\u001b[31merror\u001b[39m","timestamp":"2020-11-17T22:14:11.551Z"}
+{"message":"Successfully created a new cocktail via POST.","level":"\u001b[32minfo\u001b[39m","timestamp":"2020-11-17T22:15:00.721Z"}
+{"message":"Successfully created a new cocktail via POST.","level":"\u001b[32minfo\u001b[39m","timestamp":"2020-11-17T22:15:04.027Z"}
+{"message":"Successfully created a new cocktail via POST.","level":"\u001b[32minfo\u001b[39m","timestamp":"2020-11-17T22:15:57.052Z"}
+{"message":"Error trying to save new drink via POST : SequelizeDatabaseError: Unknown column 'Drink.alcohol' in 'where clause'","level":"\u001b[31merror\u001b[39m","timestamp":"2020-11-17T22:26:02.602Z"}
+{"message":"Successfully created a new drink via POST.","level":"\u001b[32minfo\u001b[39m","timestamp":"2020-11-17T22:26:20.673Z"}
+{"message":"Drink already exists.","level":"\u001b[32minfo\u001b[39m","timestamp":"2020-11-17T22:26:33.436Z"}
