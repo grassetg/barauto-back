@@ -1,5 +1,6 @@
 const mysql = require('mysql2/promise');
 const {Sequelize} = require('sequelize');
+const logger  = require("winston");
 
 let db = {}
 module.exports = db;
@@ -9,38 +10,45 @@ let databaseConfig = require('./config/dbConfig')
 initialize()
 
 async function initialize() {
-    // Create db if it doesn't already exist.
-    const {host, port, user, password, database} = databaseConfig;
-    const connection = await mysql.createConnection({host, port, user, password});
-    await connection.query(`CREATE DATABASE IF NOT EXISTS \`${database}\`;`);
+    try {
+        // Create db if it doesn't already exist.
+        const {host, port, user, password, database} = databaseConfig;
 
-    // Connect to db.
-    const sequelize = new Sequelize(database, user, password, {dialect: 'mysql'});
+        // Connect to db.
+        const sequelize = new Sequelize('mysql://b430d44502abe2:fae5056d@eu-cdbr-west-03.cleardb.net/heroku_981aafe7f3ef5f6');
 
-    // Init models and add them to the exported db object.
-    db.Account = require('./models/account')(sequelize);
-    db.Drink = require('./models/drink')(sequelize);
-    db.Cocktail = require('./models/cocktail')(sequelize);
-    db.CocktailHasDrink = require('./models/cocktailHasDrink')(sequelize);
-    db.Order = require('./models/order')(sequelize);
-    db.Bar = require('./models/bar')(sequelize);
-    db.Address = require('./models/address')(sequelize);
+        // Init models and add them to the exported db object.
+        db.Account = require('./models/account')(sequelize);
+        db.Drink = require('./models/drink')(sequelize);
+        db.Cocktail = require('./models/cocktail')(sequelize);
+        db.CocktailHasDrink = require('./models/cocktailHasDrink')(sequelize);
+        db.Order = require('./models/order')(sequelize);
+        db.Bar = require('./models/bar')(sequelize);
+        db.Address = require('./models/address')(sequelize);
 
-    // Define associations.
-    db.Cocktail.belongsToMany(db.Drink, {through: 'CocktailHasDrink'});
-    db.Drink.belongsToMany(db.Cocktail, {through: 'CocktailHasDrink'});
-    db.Bar.hasOne(db.Address);
-    db.Address.belongsTo(db.Bar);
-    db.Bar.hasMany(db.Cocktail, {as: "Cocktails"})
-    db.Cocktail.belongsTo(db.Bar, {
-        foreignKey: "BarId",
-        as: "bar",
-    });
+        // Define associations.
+        db.Cocktail.belongsToMany(db.Drink, {through: 'CocktailHasDrink'});
+        db.Drink.belongsToMany(db.Cocktail, {through: 'CocktailHasDrink'});
+        db.Bar.hasOne(db.Address);
+        db.Address.belongsTo(db.Bar);
+        db.Bar.hasMany(db.Cocktail, {as: "Cocktails"})
+        db.Cocktail.belongsTo(db.Bar, {
+            foreignKey: "BarId",
+            as: "bar",
+        });
 
-    // Sync all models with database.
-    await sequelize.sync({alter: true})
+        // Sync all models with database.
+        await sequelize.sync({alter: true})
 
-    await setUpTestData();
+        await setUpTestData();
+
+        logger.info("Finished initialization.")
+
+    } catch (e) {
+
+        logger.error("Error starting sequelize : " + e);
+        return 1;
+    }
 }
 
 async function setUpTestData() {
