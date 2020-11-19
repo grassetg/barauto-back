@@ -22,10 +22,6 @@ function model(sequelize) {
             type: DataTypes.STRING,
             allowNull: false
         },
-        addressName: {
-            type: DataTypes.STRING,
-            allowNull: false
-        },
         postalCode: {
             type: DataTypes.INTEGER,
             allowNull: false,

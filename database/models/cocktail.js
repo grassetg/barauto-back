@@ -27,6 +27,12 @@ function model(sequelize) {
                     }
                 }
             }
+        },
+        img: {
+            type: DataTypes.STRING,
+            isUrl: true,
+            allowNull: true,
+            defaultValue: null
         }
     };
 

@@ -31,6 +31,11 @@ async function initialize() {
     db.Drink.belongsToMany(db.Cocktail, {through: 'CocktailHasDrink'});
     db.Bar.hasOne(db.Address);
     db.Address.belongsTo(db.Bar);
+    db.Bar.hasMany(db.Cocktail, {as: "Cocktails"})
+    db.Cocktail.belongsTo(db.Bar, {
+        foreignKey: "BarId",
+        as: "bar",
+    });
 
     // Sync all models with database.
     await sequelize.sync({alter: true})
@@ -60,10 +65,6 @@ async function setUpTestData() {
         await setUpDrinks();
     }
 
-    if (nbCocktails === 0) {
-        await setUpCocktails();
-    }
-
     if (nbAddresses === 0) {
         await setUpAddresses();
     }
@@ -71,6 +72,12 @@ async function setUpTestData() {
     if (nbBars === 0) {
         await setUpBars();
     }
+
+    if (nbCocktails === 0) {
+        await setUpCocktails();
+    }
+
+
 }
 
 async function setUpAccounts() {
@@ -98,6 +105,8 @@ async function setUpDrinks() {
 }
 
 async function setUpCocktails() {
+    let bars = await db.Bar.findAll()
+    let bar = bars[0]
     let cocktail = db.Cocktail.build({
         name: "Menthe à l'eau",
         volume: 0.1, // Litres
@@ -108,8 +117,8 @@ async function setUpCocktails() {
     let eauId = (await db.Drink.findOne({where: {name: 'Eau'}})).id
     let siropId = (await db.Drink.findOne({where: {name: 'Sirop'}})).id
 
-    await db.CocktailHasDrink.create({CocktailId: cocktail.id, DrinkId: eauId})
-    await db.CocktailHasDrink.create({CocktailId: cocktail.id, DrinkId: siropId})
+    await db.CocktailHasDrink.create({CocktailId: cocktail.id, DrinkId: eauId, BarId: bar.id})
+    await db.CocktailHasDrink.create({CocktailId: cocktail.id, DrinkId: siropId, BarId: bar.id})
 }
 
 async function setUpAddresses() {

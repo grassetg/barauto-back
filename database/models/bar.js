@@ -13,6 +13,12 @@ function model(sequelize) {
         name: {
             type: DataTypes.STRING,
             allowNull: false
+        },
+        img: {
+            type: DataTypes.STRING,
+            isUrl: true,
+            allowNull: true,
+            defaultValue: null
         }
     };
 
