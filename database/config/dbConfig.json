@@ -1,7 +1,7 @@
 {
-  "host": "localhost",
+  "host": "eu-cdbr-west-03.cleardb.net",
   "port": 3306,
-  "user": "magyar",
-  "password": "dragonnet10",
-  "database": "barauto"
+  "user": "b430d44502abe2",
+  "password": "fae5056d",
+  "database": " heroku_981aafe7f3ef5f6"
 }
