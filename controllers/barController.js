@@ -14,6 +14,19 @@ controller.getOne = async function (req, res) {
     res.json(bar)
 }
 
+controller.update = async function(req, res) {
+
+    try {
+
+        await db.Bar.update(req.body, {where: {id: req.params.id}})
+        res.status(200).send()
+    } catch (e) {
+
+        logger.error("Error trying to update bar via PUT : " + e)
+        res.status(500).send()
+    }
+}
+
 controller.createOne = async function (req, res) {
     if (req.body.bar === undefined || req.body.bar_address === undefined) {
         res.status(400).send("Incomplete request, make sure both 'bar' and 'bar_address' fields exists.")

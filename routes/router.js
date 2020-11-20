@@ -13,6 +13,9 @@ router.get('/bar/:id', barController.getOne)
 router.post('/bar', barController.createOne)
 
 
+router.put('/bar/:id', barController.update)
+
+
 router.delete('/bar/:id', barController.delete)
 
 
