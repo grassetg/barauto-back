@@ -13,6 +13,9 @@ router.get('/bar/:id', barController.getOne)
 router.post('/bar', barController.createOne)
 
 
+router.delete('/bar/:id', barController.delete)
+
+
 router.get("/cocktail", cocktailController.getAll)
 
 
@@ -23,6 +26,9 @@ router.post('/cocktail', cocktailController.createOne)
 
 
 router.put('/cocktail/:id', cocktailController.update)
+
+
+router.delete('/cocktail/:id', cocktailController.delete)
 
 
 module.exports = router

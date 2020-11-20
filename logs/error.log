@@ -77,3 +77,11 @@
 {"message":"Error trying to save new drink via POST : SequelizeDatabaseError: Unknown column 'Drink.alcohol' in 'where clause'","level":"\u001b[31merror\u001b[39m","timestamp":"2020-11-17T22:26:02.602Z"}
 {"message":"Successfully created a new drink via POST.","level":"\u001b[32minfo\u001b[39m","timestamp":"2020-11-17T22:26:20.673Z"}
 {"message":"Drink already exists.","level":"\u001b[32minfo\u001b[39m","timestamp":"2020-11-17T22:26:33.436Z"}
+{"message":"Finished initialization.","level":"\u001b[32minfo\u001b[39m","timestamp":"2020-11-20T14:54:14.377Z"}
+{"message":"Finished initialization.","level":"\u001b[32minfo\u001b[39m","timestamp":"2020-11-20T15:07:55.289Z"}
+{"message":"Finished initialization.","level":"\u001b[32minfo\u001b[39m","timestamp":"2020-11-20T15:08:29.008Z"}
+{"message":1,"level":"\u001b[34mdebug\u001b[39m","timestamp":"2020-11-20T15:12:33.303Z"}
+{"message":"Finished initialization.","level":"\u001b[32minfo\u001b[39m","timestamp":"2020-11-20T15:12:34.196Z"}
+{"message":1,"level":"\u001b[34mdebug\u001b[39m","timestamp":"2020-11-20T15:14:29.885Z"}
+{"message":"Finished initialization.","level":"\u001b[32minfo\u001b[39m","timestamp":"2020-11-20T15:14:30.211Z"}
+{"message":"Finished initialization.","level":"\u001b[32minfo\u001b[39m","timestamp":"2020-11-20T15:24:19.030Z"}

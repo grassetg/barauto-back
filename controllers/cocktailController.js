@@ -77,6 +77,24 @@ controller.createOne = async function (req, res) {
     }
 }
 
+controller.delete = async function(req, res) {
+    try {
+        let cocktail = await db.Cocktail.findOne({where: {id: req.params.id}})
+        if (cocktail !== undefined) {
+            cocktail.destroy()
+        } else {
+            logger.debug("Can't delete cocktail with id : " + req.params.id + " : it does not exist.")
+            res.status(404).send("Can't delete cocktail with id : " + req.params.id + " : it does not exist.")
+        }
+
+        res.send("Successfully deleted cocktail.")
+    } catch (e) {
+
+        logger.error("Could not delete cocktail with id : " + req.params.id + " : " + e)
+        res.status(500).send("could not delete cocktail with id" + req.params.id + "due to internal error.")
+    }
+}
+
 async function checkIfCocktailExist(cocktail, drinks) {
 
     let cocktailCandidates = await db.Cocktail.findAll({where: {name: cocktail.name}, include: "Drinks"})
