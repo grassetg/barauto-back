@@ -1,6 +1,6 @@
 const mysql = require('mysql2/promise');
 const {Sequelize} = require('sequelize');
-const logger  = require("winston");
+const logger  = require("../logs");
 
 let db = {}
 module.exports = db;
@@ -11,9 +11,6 @@ initialize()
 
 async function initialize() {
     try {
-        // Create db if it doesn't already exist.
-        const {host, port, user, password, database} = databaseConfig;
-
         // Connect to db.
         const sequelize = new Sequelize('mysql://b430d44502abe2:fae5056d@eu-cdbr-west-03.cleardb.net/heroku_981aafe7f3ef5f6');
 
@@ -118,15 +115,16 @@ async function setUpCocktails() {
     let cocktail = db.Cocktail.build({
         name: "Menthe à l'eau",
         volume: 0.1, // Litres
-        price: 3.00
+        price: 3.00,
+        BarId: bar.id
     });
     await cocktail.save()
 
     let eauId = (await db.Drink.findOne({where: {name: 'Eau'}})).id
     let siropId = (await db.Drink.findOne({where: {name: 'Sirop'}})).id
 
-    await db.CocktailHasDrink.create({CocktailId: cocktail.id, DrinkId: eauId, BarId: bar.id})
-    await db.CocktailHasDrink.create({CocktailId: cocktail.id, DrinkId: siropId, BarId: bar.id})
+    await db.CocktailHasDrink.create({CocktailId: cocktail.id, DrinkId: eauId})
+    await db.CocktailHasDrink.create({CocktailId: cocktail.id, DrinkId: siropId})
 }
 
 async function setUpAddresses() {
@@ -140,17 +138,29 @@ async function setUpAddresses() {
 }
 
 async function setUpBars() {
-    let bar = db.Bar.build({
+    let bar = db.Bar.create({
         name: "L'étalon noir"
     });
-    await bar.save()
 
     await db.Address.create({
         country: "France",
         city: "Kremlin-Bicêtre",
         street: "15 avenue Fontainebleau",
-        addressName: "L'étalon noir",
-        postalCode: 94270,
+        postalCode: 75002,
         BarId: bar.id
+    })
+
+    let bar2 = await db.Bar.create({
+        name: "The Lions",
+        desc: "Le joyeux luron est l'endroit idéal pour boire un coup et se détendre !",
+        url: "http://www.lesbarres.com/media/image/slideshow/7c6dae72ef8fc4eb5dffbf7595b45c12822a1264.JPG"
+    })
+
+    await db.Address.create({
+        country: "France",
+        city: "Paris",
+        street: "120 rue Montmartre",
+        postalCode: 94270,
+        BarId: bar2.id
     })
 }

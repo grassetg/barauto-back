@@ -14,6 +14,10 @@ function model(sequelize) {
             type: DataTypes.STRING,
             allowNull: false
         },
+        desc: {
+            type: DataTypes.STRING,
+            allowNull: true
+        },
         img: {
             type: DataTypes.STRING,
             isUrl: true,
