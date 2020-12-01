@@ -20,6 +20,15 @@ router.put('/bar/:id', barController.update)
 router.delete('/bar/:id', barController.delete)
 
 
+router.get("/bar/:barId/cocktail/", cocktailController.getAllByBar)
+
+
+router.post("/bar/:barId/cocktail", cocktailController.createOne)
+
+
+router.delete("/bar/:barId/cocktail/:id", cocktailController.delete)
+
+
 router.get("/cocktail", cocktailController.getAll)
 
 
