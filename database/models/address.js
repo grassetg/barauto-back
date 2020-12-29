@@ -36,7 +36,8 @@ function model(sequelize) {
     };
 
     const options = {
-        sequelize, modelName: 'address'
+        sequelize, modelName: 'address',
+        paranoid: true
     };
 
     return sequelize.define('Address', attributes, options);

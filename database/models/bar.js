@@ -14,6 +14,10 @@ function model(sequelize) {
             type: DataTypes.STRING,
             allowNull: false
         },
+        desc: {
+            type: DataTypes.STRING,
+            allowNull: true
+        },
         img: {
             type: DataTypes.STRING,
             isUrl: true,
@@ -23,7 +27,8 @@ function model(sequelize) {
     };
 
     const options = {
-        sequelize, modelName: 'bar'
+        sequelize, modelName: 'bar',
+        paranoid: true
     };
 
     return sequelize.define('Bar', attributes, options);

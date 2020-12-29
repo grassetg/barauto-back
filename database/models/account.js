@@ -30,7 +30,8 @@ function model(sequelize) {
     };
 
     const options = {
-        sequelize, modelName: 'account'
+        sequelize, modelName: 'account',
+        paranoid: true
     };
 
     return sequelize.define('Account', attributes, options);

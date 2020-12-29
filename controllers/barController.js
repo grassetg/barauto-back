@@ -5,13 +5,26 @@ let controller = {}
 module.exports = controller
 
 controller.getAll = async function (req, res) {
-    const bars = await db.Bar.findAll({include : "Address"})
+    const bars = await db.Bar.findAll({include : ["Address", "Cocktails"]})
     res.json(bars)
 }
 
 controller.getOne = async function (req, res) {
-    const bar = await db.Bar.findOne({id: req.params.id, include: "Address"})
+    const bar = await db.Bar.findOne({id: req.params.id, include: ["Address", "Cocktails"]})
     res.json(bar)
+}
+
+controller.update = async function(req, res) {
+
+    try {
+
+        await db.Bar.update(req.body, {where: {id: req.params.id}})
+        res.status(200).send()
+    } catch (e) {
+
+        logger.error("Error trying to update bar via PUT : " + e)
+        res.status(500).send()
+    }
 }
 
 controller.createOne = async function (req, res) {
@@ -51,6 +64,24 @@ controller.createOne = async function (req, res) {
 
         logger.error("Error trying to save new bar via POST : " + e)
         res.status(500).send()
+    }
+}
+
+controller.delete = async function(req, res) {
+    try {
+        let bar = await db.Bar.findOne({where: {id: req.params.id}})
+        if (bar !== undefined) {
+            bar.destroy()
+        } else {
+            logger.debug("Can't delete bar with id : " + req.params.id + " : it does not exist.")
+            res.status(404).send("Can't delete bar with id : " + req.params.id + " : it does not exist.")
+        }
+
+        res.send("Successfully deleted bar.")
+    } catch (e) {
+
+        logger.error("Could not delete bar with id : " + req.params.id + " : " + e)
+        res.status(500).send("could not delete bar with id" + req.params.id + "due to internal error.")
     }
 }
 

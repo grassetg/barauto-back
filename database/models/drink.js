@@ -26,7 +26,8 @@ function model(sequelize) {
     };
 
     const options = {
-        sequelize, modelName: 'drink'
+        sequelize, modelName: 'drink',
+        paranoid: true
     };
 
     return sequelize.define('Drink', attributes, options);

@@ -77,3 +77,210 @@
 {"message":"Error trying to save new drink via POST : SequelizeDatabaseError: Unknown column 'Drink.alcohol' in 'where clause'","level":"\u001b[31merror\u001b[39m","timestamp":"2020-11-17T22:26:02.602Z"}
 {"message":"Successfully created a new drink via POST.","level":"\u001b[32minfo\u001b[39m","timestamp":"2020-11-17T22:26:20.673Z"}
 {"message":"Drink already exists.","level":"\u001b[32minfo\u001b[39m","timestamp":"2020-11-17T22:26:33.436Z"}
+{"message":"Finished initialization.","level":"\u001b[32minfo\u001b[39m","timestamp":"2020-11-20T14:54:14.377Z"}
+{"message":"Finished initialization.","level":"\u001b[32minfo\u001b[39m","timestamp":"2020-11-20T15:07:55.289Z"}
+{"message":"Finished initialization.","level":"\u001b[32minfo\u001b[39m","timestamp":"2020-11-20T15:08:29.008Z"}
+{"message":1,"level":"\u001b[34mdebug\u001b[39m","timestamp":"2020-11-20T15:12:33.303Z"}
+{"message":"Finished initialization.","level":"\u001b[32minfo\u001b[39m","timestamp":"2020-11-20T15:12:34.196Z"}
+{"message":1,"level":"\u001b[34mdebug\u001b[39m","timestamp":"2020-11-20T15:14:29.885Z"}
+{"message":"Finished initialization.","level":"\u001b[32minfo\u001b[39m","timestamp":"2020-11-20T15:14:30.211Z"}
+{"message":"Finished initialization.","level":"\u001b[32minfo\u001b[39m","timestamp":"2020-11-20T15:24:19.030Z"}
+{"message":"Finished initialization.","level":"\u001b[32minfo\u001b[39m","timestamp":"2020-11-20T16:39:11.591Z"}
+{"message":"Finished initialization.","level":"\u001b[32minfo\u001b[39m","timestamp":"2020-11-20T16:42:56.605Z"}
+{"message":"Finished initialization.","level":"\u001b[32minfo\u001b[39m","timestamp":"2020-11-20T16:46:47.307Z"}
+{"message":"Finished initialization.","level":"\u001b[32minfo\u001b[39m","timestamp":"2020-11-20T17:16:48.394Z"}
+{"message":"Finished initialization.","level":"\u001b[32minfo\u001b[39m","timestamp":"2020-11-29T14:49:25.308Z"}
+{"message":"Finished initialization.","level":"\u001b[32minfo\u001b[39m","timestamp":"2020-11-29T14:51:22.976Z"}
+{"message":"Finished initialization.","level":"\u001b[32minfo\u001b[39m","timestamp":"2020-11-29T14:52:01.238Z"}
+{"message":"Finished initialization.","level":"\u001b[32minfo\u001b[39m","timestamp":"2020-11-29T14:53:44.861Z"}
+{"message":"Finished initialization.","level":"\u001b[32minfo\u001b[39m","timestamp":"2020-11-29T14:54:19.138Z"}
+{"message":"Finished initialization.","level":"\u001b[32minfo\u001b[39m","timestamp":"2020-11-29T14:54:46.443Z"}
+{"message":"Finished initialization.","level":"\u001b[32minfo\u001b[39m","timestamp":"2020-11-29T15:01:08.382Z"}
+{"message":"Finished initialization.","level":"\u001b[32minfo\u001b[39m","timestamp":"2020-11-29T15:09:18.187Z"}
+{"message":{},"level":"\u001b[34mdebug\u001b[39m","timestamp":"2020-11-29T15:14:35.603Z"}
+{"message":"Finished initialization.","level":"\u001b[32minfo\u001b[39m","timestamp":"2020-11-29T15:15:16.628Z"}
+{"message":"[object Object]","level":"\u001b[34mdebug\u001b[39m","timestamp":"2020-11-29T15:15:19.020Z"}
+{"message":"Finished initialization.","level":"\u001b[32minfo\u001b[39m","timestamp":"2020-11-29T15:15:47.888Z"}
+{"message":"[object Object]","level":"\u001b[34mdebug\u001b[39m","timestamp":"2020-11-29T15:15:50.642Z"}
+{"message":"Finished initialization.","level":"\u001b[32minfo\u001b[39m","timestamp":"2020-11-29T15:16:56.728Z"}
+{"level":"\u001b[34mdebug\u001b[39m","timestamp":"2020-11-29T15:16:59.179Z"}
+{"message":"Finished initialization.","level":"\u001b[32minfo\u001b[39m","timestamp":"2020-11-29T15:19:27.320Z"}
+{"message":"id","level":"\u001b[34mdebug\u001b[39m","timestamp":"2020-11-29T15:20:01.551Z"}
+{"message":"name","level":"\u001b[34mdebug\u001b[39m","timestamp":"2020-11-29T15:20:01.552Z"}
+{"message":"volume","level":"\u001b[34mdebug\u001b[39m","timestamp":"2020-11-29T15:20:01.552Z"}
+{"message":"price","level":"\u001b[34mdebug\u001b[39m","timestamp":"2020-11-29T15:20:01.552Z"}
+{"message":"Drinks","level":"\u001b[34mdebug\u001b[39m","timestamp":"2020-11-29T15:20:01.552Z"}
+{"message":"Finished initialization.","level":"\u001b[32minfo\u001b[39m","timestamp":"2020-11-29T15:21:09.717Z"}
+{"message":"Finished initialization.","level":"\u001b[32minfo\u001b[39m","timestamp":"2020-11-29T15:21:43.968Z"}
+{"message":"Finished initialization.","level":"\u001b[32minfo\u001b[39m","timestamp":"2020-11-29T15:23:10.488Z"}
+{"message":"no bar Id","level":"\u001b[34mdebug\u001b[39m","timestamp":"2020-11-29T15:23:13.185Z"}
+{"message":"Finished initialization.","level":"\u001b[32minfo\u001b[39m","timestamp":"2020-11-29T15:23:52.940Z"}
+{"message":"Finished initialization.","level":"\u001b[32minfo\u001b[39m","timestamp":"2020-11-29T15:26:13.200Z"}
+{"message":"Finished initialization.","level":"\u001b[32minfo\u001b[39m","timestamp":"2020-11-29T15:32:09.912Z"}
+{"message":"Has been built ? [object Promise]","level":"\u001b[34mdebug\u001b[39m","timestamp":"2020-11-29T15:32:14.612Z"}
+{"message":"Finished initialization.","level":"\u001b[32minfo\u001b[39m","timestamp":"2020-11-29T15:32:40.636Z"}
+{"message":"Finished initialization.","level":"\u001b[32minfo\u001b[39m","timestamp":"2020-11-29T15:33:54.981Z"}
+{"message":"Finished initialization.","level":"\u001b[32minfo\u001b[39m","timestamp":"2020-11-29T15:37:08.327Z"}
+{"message":"Finished initialization.","level":"\u001b[32minfo\u001b[39m","timestamp":"2020-11-29T15:43:11.252Z"}
+{"message":"Error trying to add cocktail to bar1 : ReferenceError: built is not defined","level":"\u001b[31merror\u001b[39m","timestamp":"2020-11-29T15:44:08.116Z"}
+{"message":"Finished initialization.","level":"\u001b[32minfo\u001b[39m","timestamp":"2020-11-29T15:45:10.509Z"}
+{"message":{"id":1,"name":"Menthe à l'eau","volume":0.1,"price":3,"img":null,"createdAt":"2020-11-20T16:39:11.000Z","updatedAt":"2020-11-20T16:39:11.000Z","deletedAt":null,"BarId":1},"level":"\u001b[34mdebug\u001b[39m","timestamp":"2020-11-29T15:45:13.469Z"}
+{"message":{"id":1,"name":"Menthe à l'eau","volume":0.1,"price":3,"img":null,"createdAt":"2020-11-20T16:39:11.000Z","updatedAt":"2020-11-20T16:39:11.000Z","deletedAt":null,"BarId":1},"level":"\u001b[34mdebug\u001b[39m","timestamp":"2020-11-29T15:45:30.822Z"}
+{"message":{"id":1,"name":"Menthe à l'eau","volume":0.1,"price":3,"img":null,"createdAt":"2020-11-20T16:39:11.000Z","updatedAt":"2020-11-20T16:39:11.000Z","deletedAt":null,"BarId":1},"level":"\u001b[34mdebug\u001b[39m","timestamp":"2020-11-29T15:45:41.751Z"}
+{"message":"Finished initialization.","level":"\u001b[32minfo\u001b[39m","timestamp":"2020-11-29T15:46:15.140Z"}
+{"message":{"id":1,"name":"Menthe à l'eau","volume":0.1,"price":3,"img":null,"createdAt":"2020-11-20T16:39:11.000Z","updatedAt":"2020-11-20T16:39:11.000Z","deletedAt":null,"BarId":1},"level":"\u001b[34mdebug\u001b[39m","timestamp":"2020-11-29T15:46:17.373Z"}
+{"message":1,"level":"\u001b[34mdebug\u001b[39m","timestamp":"2020-11-29T15:46:17.373Z"}
+{"message":null,"level":"\u001b[34mdebug\u001b[39m","timestamp":"2020-11-29T15:47:02.215Z"}
+{"message":"Error trying to add cocktail to bar1 : TypeError: Cannot read property 'id' of null","level":"\u001b[31merror\u001b[39m","timestamp":"2020-11-29T15:47:02.216Z"}
+{"message":"Finished initialization.","level":"\u001b[32minfo\u001b[39m","timestamp":"2020-11-29T15:47:40.010Z"}
+{"message":"Error trying to add cocktail to bar1 : TypeError: Cannot set property 'BarId' of undefined","level":"\u001b[31merror\u001b[39m","timestamp":"2020-11-29T15:47:50.742Z"}
+{"message":"Finished initialization.","level":"\u001b[32minfo\u001b[39m","timestamp":"2020-11-29T15:48:17.796Z"}
+{"message":"Error trying to add cocktail to bar1 : Error: Invalid value { id: 21, name: 'Sirop', alcoholDegree: 0, volume: 15 }","level":"\u001b[31merror\u001b[39m","timestamp":"2020-11-29T15:48:19.799Z"}
+{"message":"Finished initialization.","level":"\u001b[32minfo\u001b[39m","timestamp":"2020-11-29T15:50:11.624Z"}
+{"message":{"id":1,"name":"Menthe à l'eau","volume":0.1,"price":3,"img":null,"createdAt":"2020-11-20T16:39:11.000Z","updatedAt":"2020-11-20T16:39:11.000Z","deletedAt":null,"BarId":1},"level":"\u001b[34mdebug\u001b[39m","timestamp":"2020-11-29T15:50:15.427Z"}
+{"message":1,"level":"\u001b[34mdebug\u001b[39m","timestamp":"2020-11-29T15:50:15.428Z"}
+{"message":"Not found","level":"\u001b[34mdebug\u001b[39m","timestamp":"2020-11-29T15:50:25.641Z"}
+{"message":"Finished initialization.","level":"\u001b[32minfo\u001b[39m","timestamp":"2020-11-29T15:51:31.597Z"}
+{"message":"Not found","level":"\u001b[34mdebug\u001b[39m","timestamp":"2020-11-29T15:51:34.535Z"}
+{"message":{"id":1,"name":"Menthe à l'eau","volume":0.1,"price":3,"img":null,"createdAt":"2020-11-20T16:39:11.000Z","updatedAt":"2020-11-20T16:39:11.000Z","deletedAt":null,"BarId":1,"Drinks":[{"id":21,"name":"Sirop","alcoholDegree":0,"volume":15,"createdAt":"2020-11-20T16:39:10.000Z","updatedAt":"2020-11-20T16:39:10.000Z","deletedAt":null,"CocktailHasDrink":{"id":11,"createdAt":"2020-11-20T16:39:11.000Z","updatedAt":"2020-11-20T16:39:11.000Z","deletedAt":null,"CocktailId":1,"DrinkId":21}},{"id":31,"name":"Eau","alcoholDegree":0,"volume":45,"createdAt":"2020-11-20T16:39:10.000Z","updatedAt":"2020-11-20T16:39:10.000Z","deletedAt":null,"CocktailHasDrink":{"id":1,"createdAt":"2020-11-20T16:39:11.000Z","updatedAt":"2020-11-20T16:39:11.000Z","deletedAt":null,"CocktailId":1,"DrinkId":31}}]},"level":"\u001b[34mdebug\u001b[39m","timestamp":"2020-11-29T15:51:40.247Z"}
+{"message":1,"level":"\u001b[34mdebug\u001b[39m","timestamp":"2020-11-29T15:51:40.264Z"}
+{"message":"Finished initialization.","level":"\u001b[32minfo\u001b[39m","timestamp":"2020-11-29T15:54:26.406Z"}
+{"message":"Can't create cocktail : it has the same name, volume and price as another one of this bar.","level":"\u001b[34mdebug\u001b[39m","timestamp":"2020-11-29T15:54:29.042Z"}
+{"message":"Error trying to add cocktail to bar 1 : Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client","level":"\u001b[31merror\u001b[39m","timestamp":"2020-11-29T15:54:29.046Z"}
+{"message":"Not found","level":"\u001b[34mdebug\u001b[39m","timestamp":"2020-11-29T15:54:37.265Z"}
+{"message":"Can't create cocktail : it has the same name, volume and price as another one of this bar.","level":"\u001b[34mdebug\u001b[39m","timestamp":"2020-11-29T15:54:43.478Z"}
+{"message":"Error trying to add cocktail to bar 1 : Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client","level":"\u001b[31merror\u001b[39m","timestamp":"2020-11-29T15:54:43.479Z"}
+{"message":"Finished initialization.","level":"\u001b[32minfo\u001b[39m","timestamp":"2020-11-29T16:02:11.831Z"}
+{"message":"Finished initialization.","level":"\u001b[32minfo\u001b[39m","timestamp":"2020-11-29T16:02:42.542Z"}
+{"message":"Successfully created a new cocktail via POST.","level":"\u001b[32minfo\u001b[39m","timestamp":"2020-11-29T16:02:45.547Z"}
+{"message":"Successfully created a new cocktail via POST.","level":"\u001b[32minfo\u001b[39m","timestamp":"2020-11-29T16:02:48.011Z"}
+{"message":"Finished initialization.","level":"\u001b[32minfo\u001b[39m","timestamp":"2020-11-29T16:06:42.358Z"}
+{"message":"Error trying to save new cocktail via POST : ReferenceError: req is not defined","level":"\u001b[31merror\u001b[39m","timestamp":"2020-11-29T16:07:31.968Z"}
+{"message":"Finished initialization.","level":"\u001b[32minfo\u001b[39m","timestamp":"2020-11-29T16:10:48.594Z"}
+{"message":"Successfully created a new cocktail via POST.","level":"\u001b[32minfo\u001b[39m","timestamp":"2020-11-29T16:10:51.946Z"}
+{"message":"Finished initialization.","level":"\u001b[32minfo\u001b[39m","timestamp":"2020-12-01T16:19:59.931Z"}
+{"message":"Finished initialization.","level":"\u001b[32minfo\u001b[39m","timestamp":"2020-12-01T16:21:20.614Z"}
+{"message":"Finished initialization.","level":"\u001b[32minfo\u001b[39m","timestamp":"2020-12-01T16:21:42.091Z"}
+{"message":"Finished initialization.","level":"\u001b[32minfo\u001b[39m","timestamp":"2020-12-01T16:22:41.969Z"}
+{"message":"Finished initialization.","level":"\u001b[32minfo\u001b[39m","timestamp":"2020-12-01T16:23:00.378Z"}
+{"message":"{\"id\":1,\"name\":\"Menthe à l'eau\",\"volume\":0.1,\"price\":3,\"img\":null,\"createdAt\":\"2020-11-20T16:39:11.000Z\",\"updatedAt\":\"2020-11-20T16:39:11.000Z\",\"deletedAt\":null,\"BarId\":1,\"Drinks\":[{\"id\":21,\"name\":\"Sirop\",\"alcoholDegree\":0,\"volume\":15,\"createdAt\":\"2020-11-20T16:39:10.000Z\",\"updatedAt\":\"2020-11-20T16:39:10.000Z\",\"deletedAt\":null,\"CocktailHasDrink\":{\"id\":11,\"createdAt\":\"2020-11-20T16:39:11.000Z\",\"updatedAt\":\"2020-11-20T16:39:11.000Z\",\"deletedAt\":null,\"CocktailId\":1,\"DrinkId\":21}},{\"id\":31,\"name\":\"Eau\",\"alcoholDegree\":0,\"volume\":45,\"createdAt\":\"2020-11-20T16:39:10.000Z\",\"updatedAt\":\"2020-11-20T16:39:10.000Z\",\"deletedAt\":null,\"CocktailHasDrink\":{\"id\":1,\"createdAt\":\"2020-11-20T16:39:11.000Z\",\"updatedAt\":\"2020-11-20T16:39:11.000Z\",\"deletedAt\":null,\"CocktailId\":1,\"DrinkId\":31}}]}","level":"\u001b[32minfo\u001b[39m","timestamp":"2020-12-01T16:23:13.426Z"}
+{"message":"{\"id\":1,\"name\":\"Menthe à l'eau\",\"volume\":0.1,\"price\":3,\"img\":null,\"createdAt\":\"2020-11-20T16:39:11.000Z\",\"updatedAt\":\"2020-11-20T16:39:11.000Z\",\"deletedAt\":null,\"BarId\":1,\"Drinks\":[{\"id\":21,\"name\":\"Sirop\",\"alcoholDegree\":0,\"volume\":15,\"createdAt\":\"2020-11-20T16:39:10.000Z\",\"updatedAt\":\"2020-11-20T16:39:10.000Z\",\"deletedAt\":null,\"CocktailHasDrink\":{\"id\":11,\"createdAt\":\"2020-11-20T16:39:11.000Z\",\"updatedAt\":\"2020-11-20T16:39:11.000Z\",\"deletedAt\":null,\"CocktailId\":1,\"DrinkId\":21}},{\"id\":31,\"name\":\"Eau\",\"alcoholDegree\":0,\"volume\":45,\"createdAt\":\"2020-11-20T16:39:10.000Z\",\"updatedAt\":\"2020-11-20T16:39:10.000Z\",\"deletedAt\":null,\"CocktailHasDrink\":{\"id\":1,\"createdAt\":\"2020-11-20T16:39:11.000Z\",\"updatedAt\":\"2020-11-20T16:39:11.000Z\",\"deletedAt\":null,\"CocktailId\":1,\"DrinkId\":31}}]}","level":"\u001b[34mdebug\u001b[39m","timestamp":"2020-12-01T16:24:04.443Z"}
+{"level":"\u001b[34mdebug\u001b[39m","timestamp":"2020-12-01T16:24:04.446Z"}
+{"message":"{\"id\":1,\"name\":\"Menthe à l'eau\",\"volume\":0.1,\"price\":3,\"img\":null,\"createdAt\":\"2020-11-20T16:39:11.000Z\",\"updatedAt\":\"2020-11-20T16:39:11.000Z\",\"deletedAt\":null,\"BarId\":1,\"Drinks\":[{\"id\":21,\"name\":\"Sirop\",\"alcoholDegree\":0,\"volume\":15,\"createdAt\":\"2020-11-20T16:39:10.000Z\",\"updatedAt\":\"2020-11-20T16:39:10.000Z\",\"deletedAt\":null,\"CocktailHasDrink\":{\"id\":11,\"createdAt\":\"2020-11-20T16:39:11.000Z\",\"updatedAt\":\"2020-11-20T16:39:11.000Z\",\"deletedAt\":null,\"CocktailId\":1,\"DrinkId\":21}},{\"id\":31,\"name\":\"Eau\",\"alcoholDegree\":0,\"volume\":45,\"createdAt\":\"2020-11-20T16:39:10.000Z\",\"updatedAt\":\"2020-11-20T16:39:10.000Z\",\"deletedAt\":null,\"CocktailHasDrink\":{\"id\":1,\"createdAt\":\"2020-11-20T16:39:11.000Z\",\"updatedAt\":\"2020-11-20T16:39:11.000Z\",\"deletedAt\":null,\"CocktailId\":1,\"DrinkId\":31}}]}","level":"\u001b[34mdebug\u001b[39m","timestamp":"2020-12-01T16:24:21.425Z"}
+{"level":"\u001b[34mdebug\u001b[39m","timestamp":"2020-12-01T16:24:21.428Z"}
+{"message":{"id":1,"name":"Menthe à l'eau","volume":0.1,"price":3,"img":null,"createdAt":"2020-11-20T16:39:11.000Z","updatedAt":"2020-11-20T16:39:11.000Z","deletedAt":null,"BarId":1,"Drinks":[{"id":21,"name":"Sirop","alcoholDegree":0,"volume":15,"createdAt":"2020-11-20T16:39:10.000Z","updatedAt":"2020-11-20T16:39:10.000Z","deletedAt":null,"CocktailHasDrink":{"id":11,"createdAt":"2020-11-20T16:39:11.000Z","updatedAt":"2020-11-20T16:39:11.000Z","deletedAt":null,"CocktailId":1,"DrinkId":21}},{"id":31,"name":"Eau","alcoholDegree":0,"volume":45,"createdAt":"2020-11-20T16:39:10.000Z","updatedAt":"2020-11-20T16:39:10.000Z","deletedAt":null,"CocktailHasDrink":{"id":1,"createdAt":"2020-11-20T16:39:11.000Z","updatedAt":"2020-11-20T16:39:11.000Z","deletedAt":null,"CocktailId":1,"DrinkId":31}}]},"level":"\u001b[34mdebug\u001b[39m","timestamp":"2020-12-01T16:26:29.479Z"}
+{"message":"Menthe à l'eau","level":"\u001b[34mdebug\u001b[39m","timestamp":"2020-12-01T16:26:29.482Z"}
+{"message":false,"level":"\u001b[32minfo\u001b[39m","timestamp":"2020-12-01T16:26:29.570Z"}
+{"message":"No default clause","level":"\u001b[34mdebug\u001b[39m","timestamp":"2020-12-01T16:27:44.579Z"}
+{"message":true,"level":"\u001b[32minfo\u001b[39m","timestamp":"2020-12-01T16:27:44.582Z"}
+{"message":false,"level":"\u001b[32minfo\u001b[39m","timestamp":"2020-12-01T16:28:33.093Z"}
+{"message":"Finished initialization.","level":"\u001b[32minfo\u001b[39m","timestamp":"2020-12-01T16:36:52.816Z"}
+{"message":"Successfully created a new cocktail via POST.","level":"\u001b[32minfo\u001b[39m","timestamp":"2020-12-01T16:37:10.952Z"}
+{"message":"Successfully created a new cocktail via POST.","level":"\u001b[32minfo\u001b[39m","timestamp":"2020-12-01T16:37:36.448Z"}
+{"message":"Finished initialization.","level":"\u001b[32minfo\u001b[39m","timestamp":"2020-12-01T16:39:17.114Z"}
+{"message":"Cocktail exist ? false","level":"\u001b[34mdebug\u001b[39m","timestamp":"2020-12-01T16:39:20.237Z"}
+{"message":"Successfully created a new cocktail via POST.","level":"\u001b[32minfo\u001b[39m","timestamp":"2020-12-01T16:39:21.033Z"}
+{"message":"Cocktail exist ? false","level":"\u001b[34mdebug\u001b[39m","timestamp":"2020-12-01T16:39:27.727Z"}
+{"message":"Successfully created a new cocktail via POST.","level":"\u001b[32minfo\u001b[39m","timestamp":"2020-12-01T16:39:27.985Z"}
+{"message":"Finished initialization.","level":"\u001b[32minfo\u001b[39m","timestamp":"2020-12-01T16:47:37.872Z"}
+{"message":"Cocktail exist ? false","level":"\u001b[34mdebug\u001b[39m","timestamp":"2020-12-01T16:48:23.041Z"}
+{"message":"Successfully created a new cocktail via POST.","level":"\u001b[32minfo\u001b[39m","timestamp":"2020-12-01T16:48:23.415Z"}
+{"message":{"id":1,"name":"Menthe à l'eau","volume":0.1,"price":3,"img":null,"createdAt":"2020-12-01T16:47:36.000Z","updatedAt":"2020-12-01T16:47:36.000Z","deletedAt":null,"BarId":1,"Drinks":[{"id":21,"name":"Sirop","alcoholDegree":0,"volume":15,"createdAt":"2020-12-01T16:47:36.000Z","updatedAt":"2020-12-01T16:47:36.000Z","deletedAt":null,"CocktailHasDrink":{"id":11,"createdAt":"2020-12-01T16:47:37.000Z","updatedAt":"2020-12-01T16:47:37.000Z","deletedAt":null,"CocktailId":1,"DrinkId":21}},{"id":31,"name":"Eau","alcoholDegree":0,"volume":45,"createdAt":"2020-12-01T16:47:36.000Z","updatedAt":"2020-12-01T16:47:36.000Z","deletedAt":null,"CocktailHasDrink":{"id":1,"createdAt":"2020-12-01T16:47:37.000Z","updatedAt":"2020-12-01T16:47:37.000Z","deletedAt":null,"CocktailId":1,"DrinkId":31}}]},"level":"\u001b[34mdebug\u001b[39m","timestamp":"2020-12-01T16:50:07.468Z"}
+{"message":true,"level":"\u001b[32minfo\u001b[39m","timestamp":"2020-12-01T16:50:07.532Z"}
+{"message":"{\"id\":1,\"name\":\"Menthe à l'eau\",\"volume\":0.1,\"price\":3,\"img\":null,\"createdAt\":\"2020-12-01T16:47:36.000Z\",\"updatedAt\":\"2020-12-01T16:47:36.000Z\",\"deletedAt\":null,\"BarId\":1,\"Drinks\":[{\"id\":21,\"name\":\"Sirop\",\"alcoholDegree\":0,\"volume\":15,\"createdAt\":\"2020-12-01T16:47:36.000Z\",\"updatedAt\":\"2020-12-01T16:47:36.000Z\",\"deletedAt\":null,\"CocktailHasDrink\":{\"id\":11,\"createdAt\":\"2020-12-01T16:47:37.000Z\",\"updatedAt\":\"2020-12-01T16:47:37.000Z\",\"deletedAt\":null,\"CocktailId\":1,\"DrinkId\":21}},{\"id\":31,\"name\":\"Eau\",\"alcoholDegree\":0,\"volume\":45,\"createdAt\":\"2020-12-01T16:47:36.000Z\",\"updatedAt\":\"2020-12-01T16:47:36.000Z\",\"deletedAt\":null,\"CocktailHasDrink\":{\"id\":1,\"createdAt\":\"2020-12-01T16:47:37.000Z\",\"updatedAt\":\"2020-12-01T16:47:37.000Z\",\"deletedAt\":null,\"CocktailId\":1,\"DrinkId\":31}}]}","level":"\u001b[34mdebug\u001b[39m","timestamp":"2020-12-01T16:51:02.632Z"}
+{"message":true,"level":"\u001b[32minfo\u001b[39m","timestamp":"2020-12-01T16:51:02.689Z"}
+{"message":"{\"id\":1,\"name\":\"Menthe à l'eau\",\"volume\":0.1,\"price\":3,\"img\":null,\"createdAt\":\"2020-12-01T16:47:36.000Z\",\"updatedAt\":\"2020-12-01T16:47:36.000Z\",\"deletedAt\":null,\"BarId\":1,\"Drinks\":[{\"id\":21,\"name\":\"Sirop\",\"alcoholDegree\":0,\"volume\":15,\"createdAt\":\"2020-12-01T16:47:36.000Z\",\"updatedAt\":\"2020-12-01T16:47:36.000Z\",\"deletedAt\":null,\"CocktailHasDrink\":{\"id\":11,\"createdAt\":\"2020-12-01T16:47:37.000Z\",\"updatedAt\":\"2020-12-01T16:47:37.000Z\",\"deletedAt\":null,\"CocktailId\":1,\"DrinkId\":21}},{\"id\":31,\"name\":\"Eau\",\"alcoholDegree\":0,\"volume\":45,\"createdAt\":\"2020-12-01T16:47:36.000Z\",\"updatedAt\":\"2020-12-01T16:47:36.000Z\",\"deletedAt\":null,\"CocktailHasDrink\":{\"id\":1,\"createdAt\":\"2020-12-01T16:47:37.000Z\",\"updatedAt\":\"2020-12-01T16:47:37.000Z\",\"deletedAt\":null,\"CocktailId\":1,\"DrinkId\":31}}]}","level":"\u001b[34mdebug\u001b[39m","timestamp":"2020-12-01T16:53:30.436Z"}
+{"message":"Exist ? : true","level":"\u001b[32minfo\u001b[39m","timestamp":"2020-12-01T16:53:30.524Z"}
+{"message":"Error trying to save new cocktail via POST : ReferenceError: drinksJson is not defined","level":"\u001b[31merror\u001b[39m","timestamp":"2020-12-01T16:53:30.525Z"}
+{"message":"{\"id\":1,\"name\":\"Menthe à l'eau\",\"volume\":0.1,\"price\":3,\"img\":null,\"createdAt\":\"2020-12-01T16:47:36.000Z\",\"updatedAt\":\"2020-12-01T16:47:36.000Z\",\"deletedAt\":null,\"BarId\":1,\"Drinks\":[{\"id\":21,\"name\":\"Sirop\",\"alcoholDegree\":0,\"volume\":15,\"createdAt\":\"2020-12-01T16:47:36.000Z\",\"updatedAt\":\"2020-12-01T16:47:36.000Z\",\"deletedAt\":null,\"CocktailHasDrink\":{\"id\":11,\"createdAt\":\"2020-12-01T16:47:37.000Z\",\"updatedAt\":\"2020-12-01T16:47:37.000Z\",\"deletedAt\":null,\"CocktailId\":1,\"DrinkId\":21}},{\"id\":31,\"name\":\"Eau\",\"alcoholDegree\":0,\"volume\":45,\"createdAt\":\"2020-12-01T16:47:36.000Z\",\"updatedAt\":\"2020-12-01T16:47:36.000Z\",\"deletedAt\":null,\"CocktailHasDrink\":{\"id\":1,\"createdAt\":\"2020-12-01T16:47:37.000Z\",\"updatedAt\":\"2020-12-01T16:47:37.000Z\",\"deletedAt\":null,\"CocktailId\":1,\"DrinkId\":31}}]}","level":"\u001b[34mdebug\u001b[39m","timestamp":"2020-12-01T16:54:19.104Z"}
+{"message":"Exist ? : true","level":"\u001b[32minfo\u001b[39m","timestamp":"2020-12-01T16:54:19.158Z"}
+{"message":"Cocktail exist ? false","level":"\u001b[34mdebug\u001b[39m","timestamp":"2020-12-01T16:54:19.208Z"}
+{"message":"Successfully created a new cocktail via POST.","level":"\u001b[32minfo\u001b[39m","timestamp":"2020-12-01T16:54:19.828Z"}
+{"message":"{\"id\":1,\"name\":\"Menthe à l'eau\",\"volume\":0.1,\"price\":3,\"img\":null,\"createdAt\":\"2020-12-01T16:47:36.000Z\",\"updatedAt\":\"2020-12-01T16:47:36.000Z\",\"deletedAt\":null,\"BarId\":1,\"Drinks\":[{\"id\":21,\"name\":\"Sirop\",\"alcoholDegree\":0,\"volume\":15,\"createdAt\":\"2020-12-01T16:47:36.000Z\",\"updatedAt\":\"2020-12-01T16:47:36.000Z\",\"deletedAt\":null,\"CocktailHasDrink\":{\"id\":11,\"createdAt\":\"2020-12-01T16:47:37.000Z\",\"updatedAt\":\"2020-12-01T16:47:37.000Z\",\"deletedAt\":null,\"CocktailId\":1,\"DrinkId\":21}},{\"id\":31,\"name\":\"Eau\",\"alcoholDegree\":0,\"volume\":45,\"createdAt\":\"2020-12-01T16:47:36.000Z\",\"updatedAt\":\"2020-12-01T16:47:36.000Z\",\"deletedAt\":null,\"CocktailHasDrink\":{\"id\":1,\"createdAt\":\"2020-12-01T16:47:37.000Z\",\"updatedAt\":\"2020-12-01T16:47:37.000Z\",\"deletedAt\":null,\"CocktailId\":1,\"DrinkId\":31}}]}","level":"\u001b[34mdebug\u001b[39m","timestamp":"2020-12-01T16:56:34.185Z"}
+{"message":"drink is : [object SequelizeInstance:Drink]","level":"\u001b[34mdebug\u001b[39m","timestamp":"2020-12-01T16:56:34.249Z"}
+{"message":"drink is : [object SequelizeInstance:Drink]","level":"\u001b[34mdebug\u001b[39m","timestamp":"2020-12-01T16:56:34.249Z"}
+{"message":"Exist ? : true","level":"\u001b[32minfo\u001b[39m","timestamp":"2020-12-01T16:56:34.249Z"}
+{"message":"drink is : [object SequelizeInstance:Drink]","level":"\u001b[34mdebug\u001b[39m","timestamp":"2020-12-01T16:56:34.300Z"}
+{"message":"drink is : [object SequelizeInstance:Drink]","level":"\u001b[34mdebug\u001b[39m","timestamp":"2020-12-01T16:56:34.300Z"}
+{"message":"Cocktail exist ? true","level":"\u001b[34mdebug\u001b[39m","timestamp":"2020-12-01T16:56:34.300Z"}
+{"message":"Cancelled cocktail creation : cocktail already exists.","level":"\u001b[34mdebug\u001b[39m","timestamp":"2020-12-01T16:56:34.300Z"}
+{"message":"{\"id\":1,\"name\":\"Menthe à l'eau\",\"volume\":0.1,\"price\":3,\"img\":null,\"createdAt\":\"2020-12-01T16:47:36.000Z\",\"updatedAt\":\"2020-12-01T16:47:36.000Z\",\"deletedAt\":null,\"BarId\":1,\"Drinks\":[{\"id\":21,\"name\":\"Sirop\",\"alcoholDegree\":0,\"volume\":15,\"createdAt\":\"2020-12-01T16:47:36.000Z\",\"updatedAt\":\"2020-12-01T16:47:36.000Z\",\"deletedAt\":null,\"CocktailHasDrink\":{\"id\":11,\"createdAt\":\"2020-12-01T16:47:37.000Z\",\"updatedAt\":\"2020-12-01T16:47:37.000Z\",\"deletedAt\":null,\"CocktailId\":1,\"DrinkId\":21}},{\"id\":31,\"name\":\"Eau\",\"alcoholDegree\":0,\"volume\":45,\"createdAt\":\"2020-12-01T16:47:36.000Z\",\"updatedAt\":\"2020-12-01T16:47:36.000Z\",\"deletedAt\":null,\"CocktailHasDrink\":{\"id\":1,\"createdAt\":\"2020-12-01T16:47:37.000Z\",\"updatedAt\":\"2020-12-01T16:47:37.000Z\",\"deletedAt\":null,\"CocktailId\":1,\"DrinkId\":31}}]}","level":"\u001b[34mdebug\u001b[39m","timestamp":"2020-12-01T17:06:48.736Z"}
+{"message":"drink is : [object SequelizeInstance:Drink]","level":"\u001b[34mdebug\u001b[39m","timestamp":"2020-12-01T17:06:48.839Z"}
+{"message":"drink is : [object SequelizeInstance:Drink]","level":"\u001b[34mdebug\u001b[39m","timestamp":"2020-12-01T17:06:48.840Z"}
+{"message":"Exist ? : true","level":"\u001b[32minfo\u001b[39m","timestamp":"2020-12-01T17:06:48.840Z"}
+{"message":"drink is : [object SequelizeInstance:Drink]","level":"\u001b[34mdebug\u001b[39m","timestamp":"2020-12-01T17:06:48.893Z"}
+{"message":"drink is : [object SequelizeInstance:Drink]","level":"\u001b[34mdebug\u001b[39m","timestamp":"2020-12-01T17:06:48.893Z"}
+{"message":"Cocktail exist ? true","level":"\u001b[34mdebug\u001b[39m","timestamp":"2020-12-01T17:06:48.893Z"}
+{"message":"Cancelled cocktail creation : cocktail already exists.","level":"\u001b[34mdebug\u001b[39m","timestamp":"2020-12-01T17:06:48.893Z"}
+{"message":"Finished initialization.","level":"\u001b[32minfo\u001b[39m","timestamp":"2020-12-01T17:06:55.497Z"}
+{"message":"drink is : [object Object]","level":"\u001b[34mdebug\u001b[39m","timestamp":"2020-12-01T17:07:02.737Z"}
+{"message":"drink is : [object Object]","level":"\u001b[34mdebug\u001b[39m","timestamp":"2020-12-01T17:07:02.737Z"}
+{"message":"Cocktail exist ? true","level":"\u001b[34mdebug\u001b[39m","timestamp":"2020-12-01T17:07:02.737Z"}
+{"message":"Cancelled cocktail creation : cocktail already exists.","level":"\u001b[34mdebug\u001b[39m","timestamp":"2020-12-01T17:07:02.737Z"}
+{"message":"{\"id\":1,\"name\":\"Menthe à l'eau\",\"volume\":0.1,\"price\":3,\"img\":null,\"createdAt\":\"2020-12-01T16:47:36.000Z\",\"updatedAt\":\"2020-12-01T16:47:36.000Z\",\"deletedAt\":null,\"BarId\":1,\"Drinks\":[{\"id\":21,\"name\":\"Sirop\",\"alcoholDegree\":0,\"volume\":15,\"createdAt\":\"2020-12-01T16:47:36.000Z\",\"updatedAt\":\"2020-12-01T16:47:36.000Z\",\"deletedAt\":null,\"CocktailHasDrink\":{\"id\":11,\"createdAt\":\"2020-12-01T16:47:37.000Z\",\"updatedAt\":\"2020-12-01T16:47:37.000Z\",\"deletedAt\":null,\"CocktailId\":1,\"DrinkId\":21}},{\"id\":31,\"name\":\"Eau\",\"alcoholDegree\":0,\"volume\":45,\"createdAt\":\"2020-12-01T16:47:36.000Z\",\"updatedAt\":\"2020-12-01T16:47:36.000Z\",\"deletedAt\":null,\"CocktailHasDrink\":{\"id\":1,\"createdAt\":\"2020-12-01T16:47:37.000Z\",\"updatedAt\":\"2020-12-01T16:47:37.000Z\",\"deletedAt\":null,\"CocktailId\":1,\"DrinkId\":31}}]}","level":"\u001b[34mdebug\u001b[39m","timestamp":"2020-12-01T17:07:50.850Z"}
+{"message":"drink is : [object SequelizeInstance:Drink]","level":"\u001b[34mdebug\u001b[39m","timestamp":"2020-12-01T17:07:50.939Z"}
+{"message":"drink is : [object SequelizeInstance:Drink]","level":"\u001b[34mdebug\u001b[39m","timestamp":"2020-12-01T17:07:50.940Z"}
+{"message":"Exist ? : true","level":"\u001b[32minfo\u001b[39m","timestamp":"2020-12-01T17:07:50.940Z"}
+{"message":"drink is : [object SequelizeInstance:Drink]","level":"\u001b[34mdebug\u001b[39m","timestamp":"2020-12-01T17:07:50.990Z"}
+{"message":"drink is : [object SequelizeInstance:Drink]","level":"\u001b[34mdebug\u001b[39m","timestamp":"2020-12-01T17:07:50.990Z"}
+{"message":"Cocktail exist ? true","level":"\u001b[34mdebug\u001b[39m","timestamp":"2020-12-01T17:07:50.990Z"}
+{"message":"Cancelled cocktail creation : cocktail already exists.","level":"\u001b[34mdebug\u001b[39m","timestamp":"2020-12-01T17:07:50.991Z"}
+{"message":"Finished initialization.","level":"\u001b[32minfo\u001b[39m","timestamp":"2020-12-01T17:08:00.006Z"}
+{"message":"drink is : [object Object]","level":"\u001b[34mdebug\u001b[39m","timestamp":"2020-12-01T17:08:02.663Z"}
+{"message":"drink is : [object Object]","level":"\u001b[34mdebug\u001b[39m","timestamp":"2020-12-01T17:08:02.663Z"}
+{"message":"Cocktail exist ? true","level":"\u001b[34mdebug\u001b[39m","timestamp":"2020-12-01T17:08:02.664Z"}
+{"message":"Cancelled cocktail creation : cocktail already exists.","level":"\u001b[34mdebug\u001b[39m","timestamp":"2020-12-01T17:08:02.664Z"}
+{"message":"Cocktail exist ? false","level":"\u001b[34mdebug\u001b[39m","timestamp":"2020-12-01T17:08:16.399Z"}
+{"message":"Error trying to save new cocktail via POST : ReferenceError: drinksJson is not defined","level":"\u001b[31merror\u001b[39m","timestamp":"2020-12-01T17:08:16.400Z"}
+{"message":"Cocktail exist ? false","level":"\u001b[34mdebug\u001b[39m","timestamp":"2020-12-01T17:08:20.043Z"}
+{"message":"Error trying to save new cocktail via POST : ReferenceError: drinksJson is not defined","level":"\u001b[31merror\u001b[39m","timestamp":"2020-12-01T17:08:20.044Z"}
+{"message":"{\"id\":1,\"name\":\"Menthe à l'eau\",\"volume\":0.1,\"price\":3,\"img\":null,\"createdAt\":\"2020-12-01T16:47:36.000Z\",\"updatedAt\":\"2020-12-01T16:47:36.000Z\",\"deletedAt\":null,\"BarId\":1,\"Drinks\":[{\"id\":21,\"name\":\"Sirop\",\"alcoholDegree\":0,\"volume\":15,\"createdAt\":\"2020-12-01T16:47:36.000Z\",\"updatedAt\":\"2020-12-01T16:47:36.000Z\",\"deletedAt\":null,\"CocktailHasDrink\":{\"id\":11,\"createdAt\":\"2020-12-01T16:47:37.000Z\",\"updatedAt\":\"2020-12-01T16:47:37.000Z\",\"deletedAt\":null,\"CocktailId\":1,\"DrinkId\":21}},{\"id\":31,\"name\":\"Eau\",\"alcoholDegree\":0,\"volume\":45,\"createdAt\":\"2020-12-01T16:47:36.000Z\",\"updatedAt\":\"2020-12-01T16:47:36.000Z\",\"deletedAt\":null,\"CocktailHasDrink\":{\"id\":1,\"createdAt\":\"2020-12-01T16:47:37.000Z\",\"updatedAt\":\"2020-12-01T16:47:37.000Z\",\"deletedAt\":null,\"CocktailId\":1,\"DrinkId\":31}}]}","level":"\u001b[34mdebug\u001b[39m","timestamp":"2020-12-01T17:09:08.519Z"}
+{"message":"drink is : [object SequelizeInstance:Drink]","level":"\u001b[34mdebug\u001b[39m","timestamp":"2020-12-01T17:09:08.606Z"}
+{"message":"drink is : [object SequelizeInstance:Drink]","level":"\u001b[34mdebug\u001b[39m","timestamp":"2020-12-01T17:09:08.607Z"}
+{"message":"Exist ? : true","level":"\u001b[32minfo\u001b[39m","timestamp":"2020-12-01T17:09:08.607Z"}
+{"message":"drink is : [object SequelizeInstance:Drink]","level":"\u001b[34mdebug\u001b[39m","timestamp":"2020-12-01T17:09:08.656Z"}
+{"message":"drink is : [object SequelizeInstance:Drink]","level":"\u001b[34mdebug\u001b[39m","timestamp":"2020-12-01T17:09:08.656Z"}
+{"message":"Cocktail exist ? true","level":"\u001b[34mdebug\u001b[39m","timestamp":"2020-12-01T17:09:08.657Z"}
+{"message":"Cancelled cocktail creation : cocktail already exists.","level":"\u001b[34mdebug\u001b[39m","timestamp":"2020-12-01T17:09:08.657Z"}
+{"message":"Finished initialization.","level":"\u001b[32minfo\u001b[39m","timestamp":"2020-12-01T17:09:15.625Z"}
+{"message":"Cocktail exist ? false","level":"\u001b[34mdebug\u001b[39m","timestamp":"2020-12-01T17:09:20.624Z"}
+{"message":"Successfully created a new cocktail via POST.","level":"\u001b[32minfo\u001b[39m","timestamp":"2020-12-01T17:09:21.010Z"}
+{"message":"Finished initialization.","level":"\u001b[32minfo\u001b[39m","timestamp":"2020-12-01T17:11:28.205Z"}
+{"message":"drink is : [object Object]","level":"\u001b[34mdebug\u001b[39m","timestamp":"2020-12-01T17:11:31.651Z"}
+{"message":"drink is : [object Object]","level":"\u001b[34mdebug\u001b[39m","timestamp":"2020-12-01T17:11:31.652Z"}
+{"message":"Cocktail exist ? true","level":"\u001b[34mdebug\u001b[39m","timestamp":"2020-12-01T17:11:31.652Z"}
+{"message":"Cancelled cocktail creation : cocktail already exists.","level":"\u001b[34mdebug\u001b[39m","timestamp":"2020-12-01T17:11:31.652Z"}
+{"message":"Finished initialization.","level":"\u001b[32minfo\u001b[39m","timestamp":"2020-12-01T17:12:02.206Z"}
+{"message":"created : [object Promise]","level":"\u001b[32minfo\u001b[39m","timestamp":"2020-12-01T17:12:05.243Z"}
+{"message":"drink is : [object Object]","level":"\u001b[34mdebug\u001b[39m","timestamp":"2020-12-01T17:12:05.309Z"}
+{"message":"drink is : [object Object]","level":"\u001b[34mdebug\u001b[39m","timestamp":"2020-12-01T17:12:05.309Z"}
+{"message":"Cocktail exist ? true","level":"\u001b[34mdebug\u001b[39m","timestamp":"2020-12-01T17:12:05.310Z"}
+{"message":"Cancelled cocktail creation : cocktail already exists.","level":"\u001b[34mdebug\u001b[39m","timestamp":"2020-12-01T17:12:05.310Z"}
+{"message":"Finished initialization.","level":"\u001b[32minfo\u001b[39m","timestamp":"2020-12-01T17:12:45.522Z"}
+{"message":"drink is : [object Object]","level":"\u001b[34mdebug\u001b[39m","timestamp":"2020-12-01T17:12:51.668Z"}
+{"message":"drink is : [object Object]","level":"\u001b[34mdebug\u001b[39m","timestamp":"2020-12-01T17:12:51.668Z"}
+{"message":"Cocktail exist ? true","level":"\u001b[34mdebug\u001b[39m","timestamp":"2020-12-01T17:12:51.669Z"}
+{"message":"Cancelled cocktail creation : cocktail already exists.","level":"\u001b[34mdebug\u001b[39m","timestamp":"2020-12-01T17:12:51.669Z"}
+{"message":"Cocktail exist ? false","level":"\u001b[34mdebug\u001b[39m","timestamp":"2020-12-01T17:13:06.442Z"}
+{"message":"Successfully created a new cocktail via POST.","level":"\u001b[32minfo\u001b[39m","timestamp":"2020-12-01T17:13:06.843Z"}
+{"message":"drink is : [object Object]","level":"\u001b[34mdebug\u001b[39m","timestamp":"2020-12-01T17:13:12.104Z"}
+{"message":"drink is : [object Object]","level":"\u001b[34mdebug\u001b[39m","timestamp":"2020-12-01T17:13:12.104Z"}
+{"message":"Cocktail exist ? true","level":"\u001b[34mdebug\u001b[39m","timestamp":"2020-12-01T17:13:12.105Z"}
+{"message":"Cancelled cocktail creation : cocktail already exists.","level":"\u001b[34mdebug\u001b[39m","timestamp":"2020-12-01T17:13:12.105Z"}
+{"message":"drink is : [object Object]","level":"\u001b[34mdebug\u001b[39m","timestamp":"2020-12-01T17:13:20.785Z"}
+{"message":"Cocktail exist ? true","level":"\u001b[34mdebug\u001b[39m","timestamp":"2020-12-01T17:13:20.785Z"}
+{"message":"Cancelled cocktail creation : cocktail already exists.","level":"\u001b[34mdebug\u001b[39m","timestamp":"2020-12-01T17:13:20.785Z"}
+{"message":"Cocktail exist ? false","level":"\u001b[34mdebug\u001b[39m","timestamp":"2020-12-01T17:13:35.299Z"}
+{"message":"Successfully created a new cocktail via POST.","level":"\u001b[32minfo\u001b[39m","timestamp":"2020-12-01T17:13:36.305Z"}
+{"message":"Finished initialization.","level":"\u001b[32minfo\u001b[39m","timestamp":"2020-12-01T17:16:22.272Z"}
+{"message":"drink is : [object Object]","level":"\u001b[34mdebug\u001b[39m","timestamp":"2020-12-01T17:17:00.292Z"}
+{"message":"drink is : [object Object]","level":"\u001b[34mdebug\u001b[39m","timestamp":"2020-12-01T17:17:00.292Z"}
+{"message":"Cocktail exist ? true","level":"\u001b[34mdebug\u001b[39m","timestamp":"2020-12-01T17:17:00.293Z"}
+{"message":"Cancelled cocktail creation : cocktail already exists.","level":"\u001b[34mdebug\u001b[39m","timestamp":"2020-12-01T17:17:00.293Z"}
+{"message":"Cocktail exist ? false","level":"\u001b[34mdebug\u001b[39m","timestamp":"2020-12-01T17:17:17.307Z"}
+{"message":"Successfully created a new cocktail via POST.","level":"\u001b[32minfo\u001b[39m","timestamp":"2020-12-01T17:17:17.704Z"}
+{"message":"drink is : [object Object]","level":"\u001b[34mdebug\u001b[39m","timestamp":"2020-12-01T17:17:37.212Z"}
+{"message":"Cocktail exist ? true","level":"\u001b[34mdebug\u001b[39m","timestamp":"2020-12-01T17:17:37.213Z"}
+{"message":"Cancelled cocktail creation : cocktail already exists.","level":"\u001b[34mdebug\u001b[39m","timestamp":"2020-12-01T17:17:37.213Z"}
+{"message":"Cocktail exist ? false","level":"\u001b[34mdebug\u001b[39m","timestamp":"2020-12-01T17:17:42.475Z"}
+{"message":"Successfully created a new cocktail via POST.","level":"\u001b[32minfo\u001b[39m","timestamp":"2020-12-01T17:17:42.763Z"}
